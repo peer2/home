@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Consolas,monaco,monospace; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1f1f1f;
+  color: yellow;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

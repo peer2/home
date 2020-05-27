@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+
+}
+
+.title {
+  padding: 100px 200px 20px;
+    /* margin: 100px; */
+    text-align: left;
+    font-size: 40px
+}
+
+.recharts-wrapper {
+  margin: auto !important;
+}
+
+.divide10 {
+  padding-top: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.bar {
+  margin: 10px 200px;
+    /* color: yellow; */
+  border-top: 1px yellow;
+}
+
+.footer {
+  color: white;
+}
+
+.payment-widget:hover {
+  background-color: #f9f939ab;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.email-input { 
+  padding: 7px 35px;
+  padding: 7px 15px;
+    border-radius: 5px;
+    border: 0px;
+    background: #f9f939ab;
+    border-color: yellow;
+    border: 1px solid #ffff00;
+    color: yellow;
+    text-align: -webkit-match-parent;
+}
+
+::placeholder {
+    color: yellow; 
+} 
+
+.payment-widget {
+  font-family: Consolas,monaco,monospace;
+  padding: 7px 35px;
+    color: black;
+    border: 0px;
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: yellow;
+    box-shadow: 5px 5px #ffff007a;
+}
+
+p {
+  color: white;
+    font-size: 20px;
+    text-align: left;
+  padding: 00px 200px 10px;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
